@@ -15,6 +15,27 @@ export default [
     component: './Access',
   },
   {
+    name: '其他',
+    path: '/other',
+    routes: [
+      // {
+      //   name: '设备对接',
+      //   path: '/other/deviceDock',
+      //   component: './other/DeviceDock',
+      // },
+      {
+        name: 'Canvas画布',
+        path: '/other/canvas',
+        component: './other/Canvas',
+      },
+      // {
+      //   name: '地图',
+      //   path: '/other/map',
+      //   component: './other/Map',
+      // },
+    ]
+  },
+  {
     path: '*',
     component: './404',
     layout: false,
