@@ -15,6 +15,17 @@ export default [
     component: './Access',
   },
   {
+    name: 'Antd组件应用',
+    path: '/antdComponents',
+    routes: [
+      {
+        name: '表单',
+        path: '/antdComponents/formUI',
+        component: './antdComponents/FormUI',
+      },
+    ]
+  },
+  {
     name: '其他',
     path: '/other',
     routes: [
