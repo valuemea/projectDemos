@@ -15,6 +15,11 @@ export default [
     component: './Access',
   },
   {
+    name: '请求应用',
+    path: '/requestDemos',
+    component: './Request',
+  },
+  {
     name: 'Antd组件应用',
     path: '/antdComponents',
     routes: [
